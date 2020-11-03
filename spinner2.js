@@ -8,6 +8,6 @@ for (let i = 0; i < loop; i++) {
 }
 
 // print new line after loop
-setTimeout(() => /* New line */ process.stdout.write('\n'), 700 + (loop - 1) * 800);
+setTimeout(() => /* New line */ process.stdout.write('\n'), 700 + ((loop - 1) * 800));
 
-// Note to self: try putting the characters in an array
+// Alternative solution by try putting the characters in an array?
